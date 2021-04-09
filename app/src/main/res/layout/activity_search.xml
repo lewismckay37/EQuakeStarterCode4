@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<TextView
+    android:id="@+id/date1"
+    android:layout_width="300dp"
+
+    android:layout_height="wrap_content"
+    android:text="Select date 1"
+    android:layout_marginTop="50dp"
+    android:layout_marginHorizontal="100dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+    android:textSize="20sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/date2"
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+        android:text="Select date 2"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="100dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="20sp">
+    </TextView>
+    <Button android:id="@+id/startButton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Search date range"
+        android:layout_marginTop="600dp"
+        android:layout_marginHorizontal="150dp"/>
+
+</RelativeLayout>

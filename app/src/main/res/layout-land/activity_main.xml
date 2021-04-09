@@ -1,0 +1,52 @@
+
+
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/salutation"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Earthquake tracker This app will allow you to access all in the information you need about earthquakes around the world. Choose List from the menu to display a list of recent earthquakes. Map to them on a world map or Search to search for eathquakes in a date range"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/bgsicon"
+            android:layout_alignParentRight="true"/>
+
+
+        <TextView
+            android:id="@+id/rawDataDisplay"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:text=""
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="300dip"
+            android:layout_height="50dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Press to get data"
+            />
+
+
+
+
+
+    </RelativeLayout>>
+
+
+</ScrollView>
+
+
+
